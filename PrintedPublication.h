@@ -14,7 +14,7 @@
  * Добавляет специфичные для печати поля: количество страниц и издательство.
  * Реализует переопределение виртуального метода getShortInfo().
  */
-class PrintedPublication : public Publication
+class PrintedPublication : virtual public Publication
 {
 protected:
     int pages;             ///< Количество страниц.

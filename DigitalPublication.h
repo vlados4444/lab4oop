@@ -14,7 +14,7 @@
  * Добавляет размер файла и формат. Инкрементирует статический счётчик
  * electronicCount при создании.
  */
-class DigitalPublication : public Publication
+class DigitalPublication : virtual public Publication
 {
 protected:
     double fileSize;    ///< Размер файла в мегабайтах.
