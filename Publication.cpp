@@ -1,8 +1,6 @@
 /**
  * @file Publication.cpp
  * @brief Реализация абстрактного класса Publication.
- * @author Твоё Имя
- * @date 27.10.2026
  */
 
 #include "Publication.h"
